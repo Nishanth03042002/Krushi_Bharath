@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temple Website - Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="top-bar">
+            <div class="logo-area" style="padding: 0; border: none; background: transparent;">
+                <img src="assets/logo.png" alt="Logo" style="height: 100%; width: auto;">
+            </div>
+            <div class="header-info">
+                <div class="address-bar">Kudregundi, Chikkamagaluru, Karnataka 577127</div>
+                <div class="name-bar">Ashvagundeshwara Temple</div>
+            </div>
+            <button class="donate-btn" onclick="window.location.href='donate.html'">DONATE</button>
+            <div class="social-icons">
+                <a href="https://instagram.com" target="_blank" class="social-icon"><img src="assets/instagram.svg"
+                        alt="Instagram"></a>
+                <a href="https://facebook.com" target="_blank" class="social-icon"><img src="assets/facebook.svg"
+                        alt="Facebook"></a>
+                <a href="https://whatsapp.com" target="_blank" class="social-icon"><img src="assets/whatsapp.svg"
+                        alt="WhatsApp"></a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <ul class="nav-links">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT US</a></li>
+            <li><a href="gallery.html" class="active">GALLERY</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+
+        <h2 style="text-align: center; margin-bottom: 20px; color: var(--secondary-color);">Photo Gallery</h2>
+
+        <div class="gallery-grid">
+            <div class="grid-item" style="background: none;"><img src="assets/exterior.png"
+                    style="width: 100%; height: 100%; object-fit: cover;"></div>
+            <div class="grid-item" style="background: none;"><img src="assets/interior.png"
+                    style="width: 100%; height: 100%; object-fit: cover;"></div>
+            <div class="grid-item" style="background: none;"><img src="assets/nandi.png"
+                    style="width: 100%; height: 100%; object-fit: cover;"></div>
+            <div class="grid-item" style="background: none;"><img src="assets/nature.png"
+                    style="width: 100%; height: 100%; object-fit: cover;"></div>
+            <div class="grid-item" style="background: none;"><img src="assets/interior.png"
+                    style="width: 100%; height: 100%; object-fit: cover;"></div>
+            <div class="grid-item" style="background: none;"><img src="assets/exterior.png"
+                    style="width: 100%; height: 100%; object-fit: cover;"></div>
+            <div class="grid-item" style="background: none;"><img src="assets/nature.png"
+                    style="width: 100%; height: 100%; object-fit: cover;"></div>
+            <div class="grid-item" style="background: none;"><img src="assets/nandi.png"
+                    style="width: 100%; height: 100%; object-fit: cover;"></div>
+        </div>
+
+    </div>
+
+    <!-- Footer Form Section -->
+    <div class="footer-form-section">
+        <div class="call-back-text">
+            <h3><span>REQUEST</span> A CALL<br>BACK.</h3>
+        </div>
+        <form class="form-grid">
+            <input type="text" placeholder="First Name *">
+            <textarea placeholder="Your Message *"></textarea>
+            <input type="email" placeholder="E-mail *">
+            <input type="tel" placeholder="Phone *">
+            <button type="submit" class="submit-btn" style="border: 1px solid var(--primary-color);">submit ></button>
+        </form>
+    </div>
+
+</body>
+
+</html>

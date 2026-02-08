@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temple Website - Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="top-bar">
+            <div class="logo-area" style="padding: 0; border: none; background: transparent;">
+                <img src="assets/logo.png" alt="Logo" style="height: 100%; width: auto;">
+            </div>
+            <div class="header-info">
+                <div class="address-bar">Kudregundi, Chikkamagaluru, Karnataka 577127</div>
+                <div class="name-bar">Ashvagundeshwara Temple</div>
+            </div>
+            <button class="donate-btn" onclick="window.location.href='donate.html'">DONATE</button>
+            <div class="social-icons">
+                <a href="https://instagram.com" target="_blank" class="social-icon"><img src="assets/instagram.svg"
+                        alt="Instagram"></a>
+                <a href="https://facebook.com" target="_blank" class="social-icon"><img src="assets/facebook.svg"
+                        alt="Facebook"></a>
+                <a href="https://wa.link/o35ll3" target="_blank" class="social-icon"><img src="assets/whatsapp.svg"
+                        alt="WhatsApp"></a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">HOME</a></li>
+            <li><a href="about.html">ABOUT US</a></li>
+            <li><a href="gallery.html">GALLERY</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <!-- Slider Section -->
+        <div class="slider-section">
+            <div class="slider-btn prev-btn">&#10094;</div>
+            <div class="slider-content" style="background: none;">
+                <img id="slider-image" src="assets/nature.png" alt="Nature"
+                    style="width: 100%; height: 100%; object-fit: cover; transition: opacity 0.3s ease-in-out;">
+            </div>
+            <div class="slider-btn next-btn">&#10095;</div>
+        </div>
+
+        <!-- Hero Section -->
+        <div class="hero-grid">
+            <div class="hero-text">
+                <h1>Ashvagundeshwara Temple</h1>
+                <h2>A Sacred Abode in the Ghats</h2>
+                <p>
+                    Welcome to the Ashvagundeshwara Temple, a divine sanctuary nestled in the lush greenery of
+                    Chikkamagaluru.
+                    Dedicated to Lord Shiva, this ancient temple offers a serene environment for spiritual seeking and
+                    peace.
+                    Experience the divinity of the Malnad region.
+                </p>
+            </div>
+            <div class="hero-image" style="background: none;">
+                <img src="assets/exterior.png" alt="Temple Exterior"
+                    style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+        </div>
+
+        <!-- Temple Images Bar -->
+        <div class="temple-bar">
+            Temple Images
+        </div>
+
+        <!-- 4 Column Grid -->
+        <div class="image-grid-4">
+            <div class="grid-item" style="background: none;"><img src="assets/nandi.png"
+                    style="width: 100%; height: 100%; object-fit: cover;"></div>
+            <div class="grid-item" style="background: none;"><img src="assets/interior.png"
+                    style="width: 100%; height: 100%; object-fit: cover;"></div>
+            <div class="grid-item" style="background: none;"><img src="assets/exterior.png"
+                    style="width: 100%; height: 100%; object-fit: cover;"></div>
+            <div class="grid-item" style="background: none;"><img src="assets/nature.png"
+                    style="width: 100%; height: 100%; object-fit: cover;"></div>
+        </div>
+
+        <!-- Bottom Section -->
+        <div class="bottom-section">
+            <div class="content-box">
+                <p>
+                    Surrounded by the natural beauty of the Western Ghats, the Ashvagundeshwara Temple is a perfect
+                    destination for devotees and nature lovers alike.
+                    The temple architecture reflects the traditional style of the region, providing a cool and calm
+                    atmosphere for meditation.
+                </p>
+            </div>
+            <div class="content-box" style="padding: 0; background: none;">
+                <img src="assets/interior.png" alt="Interior" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Form Section -->
+    <div class="footer-form-section">
+        <div class="call-back-text">
+            <h3><span>REQUEST</span> A CALL<br>BACK.</h3>
+        </div>
+        <form class="form-grid">
+            <input type="text" placeholder="First Name *">
+            <textarea placeholder="Your Message *"></textarea>
+            <input type="email" placeholder="E-mail *">
+            <input type="tel" placeholder="Phone *">
+            <button type="submit" class="submit-btn">submit ></button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

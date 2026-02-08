@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temple Website - Donate</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <style>
+        .donation-container {
+            max-width: 800px;
+            margin: 50px auto;
+            background: #fff;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .donation-container h1 {
+            color: var(--secondary-color);
+            margin-bottom: 20px;
+            font-size: 2.5em;
+        }
+
+        .donation-container p {
+            font-size: 1.1em;
+            color: #555;
+            margin-bottom: 30px;
+        }
+
+        .bank-details {
+            text-align: left;
+            background: var(--bg-color);
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+            margin-bottom: 30px;
+        }
+
+        .bank-details h3 {
+            color: var(--primary-color);
+            margin-bottom: 15px;
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 5px;
+            display: inline-block;
+        }
+
+        .bank-details p {
+            margin: 10px 0;
+            font-weight: 500;
+        }
+
+        .qr-code-section {
+            margin-top: 30px;
+        }
+
+        .qr-code-section img {
+            width: 250px;
+            height: 250px;
+            border: 2px solid var(--accent-color);
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        .note {
+            font-size: 0.9em;
+            color: #777;
+            margin-top: 20px;
+            font-style: italic;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="top-bar">
+            <div class="logo-area" style="padding: 0; border: none; background: transparent;">
+                <img src="assets/logo.png" alt="Logo" style="height: 100%; width: auto;">
+            </div>
+            <div class="header-info">
+                <div class="address-bar">Kudregundi, Chikkamagaluru, Karnataka 577127</div>
+                <div class="name-bar">Ashvagundeshwara Temple</div>
+            </div>
+            <button class="donate-btn" onclick="window.location.href='donate.html'">DONATE</button>
+            <div class="social-icons">
+                <a href="https://instagram.com" target="_blank" class="social-icon"><img src="assets/instagram.svg"
+                        alt="Instagram"></a>
+                <a href="https://facebook.com" target="_blank" class="social-icon"><img src="assets/facebook.svg"
+                        alt="Facebook"></a>
+                <a href="https://whatsapp.com" target="_blank" class="social-icon"><img src="assets/whatsapp.svg"
+                        alt="WhatsApp"></a>
+            </div>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">HOME</a></li>
+                <li><a href="about.html">ABOUT US</a></li>
+                <li><a href="gallery.html">GALLERY</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="donation-container">
+        <h1>Support Our Temple</h1>
+        <p>Your generous contributions help us maintain the temple, conduct daily rituals, and serve the community. May
+            Lord Shiva bless you and your family.</p>
+
+        <div class="qr-code-section">
+            <h3>Scan to Donate via UPI</h3>
+            <img src="assets/qr_code.png" alt="UPI QR Code">
+            <p><strong>UPI ID:</strong> ashvagundeshwara@upi</p>
+        </div>
+
+        <div class="bank-details">
+            <h3>Bank Account Details</h3>
+            <p><strong>Account Name:</strong> Ashvagundeshwara Temple Trust</p>
+            <p><strong>Bank Name:</strong> State Bank of India</p>
+            <p><strong>Account Number:</strong> 123456789012</p>
+            <p><strong>IFSC Code:</strong> SBIN0001234</p>
+            <p><strong>Branch:</strong> Koppa</p>
+        </div>
+
+        <p class="note">All donations are exempt under Section 80G of the Income Tax Act.</p>
+    </div>
+
+
+    <!-- Footer -->
+    <div class="footer-form-section">
+        <div class="call-back-text">
+            <h3><span>REQUEST</span> A CALL<br>BACK.</h3>
+        </div>
+        <form class="form-grid">
+            <input type="text" placeholder="First Name *">
+            <textarea placeholder="Your Message *"></textarea>
+            <input type="email" placeholder="E-mail *">
+            <input type="tel" placeholder="Phone *">
+            <button type="submit" class="submit-btn">submit</button>
+        </form>
+    </div>
+
+
+</body>
+
+</html>
